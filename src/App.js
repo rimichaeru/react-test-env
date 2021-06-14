@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <input type="file" accept="image/*" capture="environment" />
+      <input type="file" accept="image/*" />
     </div>
   );
 }
